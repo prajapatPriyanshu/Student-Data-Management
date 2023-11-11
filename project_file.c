@@ -130,7 +130,7 @@ sqlite3_close(db);
 return;
 }
 
-if(x==49)				// ye ek bug hai [x=49] lekin ise humara kam hora hai
+if(x==49)				
 {	
 printf("This Roll Number is already alloted!\n");
 sprintf(sql,"select * from student where roll_number=%d;",rollNumber2);
